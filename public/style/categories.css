@@ -1,0 +1,19 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.radio {
+    display: none;
+}
+
+.label-radio {
+    margin: 15px 5px;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+   color: #008592;
+}
